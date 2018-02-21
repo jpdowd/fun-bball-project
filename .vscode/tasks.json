@@ -11,7 +11,7 @@
         {
             "label": "Sass Compile",
             "type": "shell",
-            "command": "node-sass project.scss project.css",
+            "command": "node-sass src/main/webapp/project.scss src/main/webapp/project.css",
             "group": "build"
         }
     ]
