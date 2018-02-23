@@ -1,2 +1,8 @@
 # ignore compiled css
 *.css
+
+# dependencies
+/node_modules
+
+# dist
+/dist
