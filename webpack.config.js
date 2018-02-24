@@ -15,6 +15,12 @@ const config = {
                 use: 'babel-loader'
             }
         ]
+    },
+    devServer: {
+        contentBase: path.join(__dirname, "dist"),
+        port: 2700,
+        open: true,
+        watchContentBase: true
     }
 };
 

@@ -4,7 +4,7 @@
   "description": "Baseball project for fun",
   "main": "gulpfile.js",
   "scripts": {
-    "start": "react-scripts start",
+    "serve": "webpack-dev-server --inline --hot --progress",
     "dist": "webpack",
     "test": "test"
   },
@@ -23,8 +23,11 @@
     "babel-loader": "^7.1.2",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
+    "gulp-connect": "^5.5.0",
+    "gulp-webserver": "^0.9.1",
     "npm-start": "^1.4.2",
-    "webpack": "^3.11.0"
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
   },
   "dependencies": {
     "lodash": "^4.17.5",
