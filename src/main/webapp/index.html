@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Starter React App Title</title>
+        <meta charset='UTF-8'>
+        <title><%=htmlWebpackPlugin.options.title %></title>
     </head>
     <body>
+        <h1><%=htmlWebpackPlugin.options.pageHeader %></h1>
+
+        <h3>Blah!</h3>
+
+        <my-app></my-app>
+
         <div id="app"></div>
         <script src="bundle.js"></script>
     </body>
